@@ -12,7 +12,7 @@
   <h1>CALCUL DES INDEMNITES KILOMETRIQUES</h1>
   <section class=" container">
 
-    <form method="post" action="traitement.php" size="50" id="formulaire">
+    <form method="GET" action="traitement.php" size="50" id="formulaire">
       <div>
         <label for="Puissance voiture"><strong>Puissance de votre voiture</strong></label>
         <input type="number" value="" class="power" name="puissance_voiture" placeholder="veuillez saisir la puissance fiscale de votre voiture" required />
